@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "0000", 
+    "database": "wms",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5000
+  },
+  "test": {
+    "username": "postgres",
+    "password": "0000", 
+    "database": "wms",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
+  }
+}
